@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Toaza"
+  given-names: "Bladimir"
+  orcid: "https://orcid.org/0000-0002-1338-1215"
+title: "bibsearch: Bibliometric search"
+version: 1.0.0
+doi: 10.24433/CO.8741078.v1
+date-released: 2023-10-05
+url: "https://github.com/bladitoaza/bibsearch"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Toaza"
+    given-names: "Bladimir"
+    orcid: "https://orcid.org/0000-0002-1338-1215"
+  - family-names: "Esztergár-Kiss"
+    given-names: "Domokos"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+  doi: "10.1016/j.asoc.2023.110908"
+  journal: "Applied Soft Computing"
+  month: 10
+  start: 110908
+  title: "A review of metaheuristic algorithms for solving TSP-based scheduling optimization problems"
+  volume: 148
+  year: 2023
