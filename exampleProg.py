@@ -43,7 +43,8 @@ for ind in df.index:
         for result in results_df.index:
             resultID=results_df['dc:identifier'][result]
             resultID = re.split(":",resultID)
-            scp_doc = AbsDoc(scp_id = int(resultID[1]))
+            scp_doc =AbsDoc(uri=u'https://api.elsevier.com/content/abstract/scopus_id/'+resultID[1]+'?apiKey=' +config['apikey'])
+
 
             if scp_doc.read(client):
             #Extracting authors
